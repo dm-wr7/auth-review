@@ -1,3 +1,3 @@
 # Database relationships
 
-<img src='images/schema.png'/>
+<img src='images/new_schema.png'/>
