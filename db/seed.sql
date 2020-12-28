@@ -37,6 +37,8 @@ CREATE TABLE "user_cart" (
   "quantity" int
 );
 
+insert into users(email, first_name, last_name) values('andrew@email.com', 'Andrew', 'Westenskow');
+
 insert into products (name, description, price) values ('Wine - Pinot Noir Stoneleigh', 'Adaptive demand-driven productivity', 8930);
 insert into products (name, description, price) values ('Flour - Teff', 'Cloned exuding open system', 828);
 insert into products (name, description, price) values ('Doilies - 5, Paper', 'Progressive global instruction set', 9538);
