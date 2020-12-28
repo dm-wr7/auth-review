@@ -1,5 +1,5 @@
 DROP TABLE IF EXISTS products_images;
-DROP TABLE IF EXISTS user_cart;
+DROP TABLE IF EXISTS users_cart;
 DROP TABLE IF EXISTS products;
 DROP TABLE IF EXISTS users_auth;
 DROP TABLE IF EXISTS users;
@@ -30,7 +30,7 @@ CREATE TABLE "products_images" (
   "url" text
 );
 
-CREATE TABLE "user_cart" (
+CREATE TABLE "users_cart" (
   "id" serial PRIMARY KEY,
   "user_id" int REFERENCES users(id),
   "product_id" int REFERENCES products(id),
