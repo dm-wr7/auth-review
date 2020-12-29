@@ -39,7 +39,7 @@ CREATE TABLE "users_cart" (
 
 insert into users(email, first_name, last_name) values('andrew@email.com', 'Andrew', 'Westenskow');
 
-insert into products (name, description, price) values ('Wine - Pinot Noir Stoneleigh', 'Adaptive demand-driven productivity', 8930);
+insert into products (name, description, price, images) values ('Wine - Pinot Noir Stoneleigh', 'Adaptive demand-driven productivity', 8930);
 insert into products (name, description, price) values ('Flour - Teff', 'Cloned exuding open system', 828);
 insert into products (name, description, price) values ('Doilies - 5, Paper', 'Progressive global instruction set', 9538);
 insert into products (name, description, price) values ('Cinnamon Buns Sticky', 'Implemented attitude-oriented strategy', 2139);
